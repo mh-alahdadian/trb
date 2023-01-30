@@ -1,0 +1,20 @@
+.BreadCrumb {
+  width: 100%;
+  direction: rtl;
+  padding: 5px 10px;
+}
+.BreadItem {
+  font-size: 12px;
+  color: #808080;
+  // margin: 5px;
+  display: inline-block;
+}
+.BreadItem:not(:first-child):before {
+  content: "›";
+  // display: block;
+  padding: 0 8px;
+  color: #808080;
+}
+.BreadItem:hover {
+  color: #808080;
+}

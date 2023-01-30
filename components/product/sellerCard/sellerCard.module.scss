@@ -1,0 +1,62 @@
+.SellerCard {
+  direction: rtl;
+  padding: 10px;
+  //   background-color: white;
+  //   border-radius: 5px;
+}
+.SellerCard:not(:first-child) {
+  border-top: 1px solid #ecedef;
+}
+.shop_name1 {
+  color: #000000;
+  font-size: 17px;
+  display: inline-block;
+  font-weight: bold;
+}
+.shop_name2 {
+  color: #808080;
+  font-size: 12px;
+  display: inline-block;
+  padding-inline-start: 8px;
+  line-height: 32px;
+  margin: 0;
+}
+
+.name1 {
+  margin-top: 8px;
+  color: #666;
+  font-size: 16px;
+}
+.name2 {
+  color: #999;
+  margin-top: 4px;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.price {
+  flex: 1;
+  color: #d73948;
+  font-size: 18px;
+}
+
+.buyButton {
+  padding: 10px;
+  font-family: "IranYekan";
+  border: none;
+  border-radius: 5px;
+  max-width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  background-color: white;
+  color: #d73948;
+  border: 1px solid #d73948;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.lastRow {
+  display: flex;
+  align-items: center;
+}

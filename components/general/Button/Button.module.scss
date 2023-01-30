@@ -1,0 +1,19 @@
+.Button {
+  background-color: #d73948;
+  padding: 10px;
+  color: white;
+  font-family: "IranYekan";
+  border: none;
+  border-radius: 5px;
+  max-width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: pointer;
+}
+.outlined {
+  background-color: white;
+  color: #d73948;
+  border: 1px solid #d73948;
+  font-weight: bold;
+}

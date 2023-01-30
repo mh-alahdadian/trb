@@ -1,0 +1,49 @@
+.TitleBar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  padding: 0 35px;
+  direction: rtl;
+  background-color: red;
+  border-bottom: 1px solid #ecedef;
+  background-color: white;
+  z-index: 100000000000;
+}
+
+.title {
+  font-size: 14px;
+  height: 48px;
+  line-height: 48px;
+  margin: 0 auto 0 auto;
+  max-width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.back {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.icon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #999999;
+  display: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 480px) {
+  .icon {
+    display: block;
+  }
+}
